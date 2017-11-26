@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Favorite Bands</title>
+  </head>
+  <body>
+
+    <script>
+
+ // An array named Bands
+ var Bands = ["david bowie", "the weeknd", "natalia", "the who"];
+
+ // Prompt the user to ask their favorite band
+
+ var userBand = prompt("What's your favorite band?");
+
+ //Make the user guess lower case
+ var userBandLower = userBand.toLowerCase();
+
+ //Check to see if the user's guess is in my array
+
+ if (Bands.indexOf(userBandLower) === -1) {
+ 	alert("We don't like the same bands");
+ }
+
+ else {
+ 	alert("I like them too!");
+ }
+
+</script>
+</body>
+</html>
